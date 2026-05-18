@@ -21,12 +21,12 @@ public class Personagem {
         System.out.println("----------------------------\n");
         System.out.println("--- Status do Personagem ---\n");
         System.out.println("----------------------------\n");
-        System.out.println("--- Nome    | " + nome.toString() + "---\n");
-        System.out.println("--- Classe  | " + classe.toString() + "---\n");
-        System.out.println("--- Nível   | " + nivel + "---\n");
-        System.out.println("--- PV      | " + pontosDeVida + "---\n");
-        System.out.println("--- PB      | " + poderBase + "---\n");
-        System.out.println("----------------------------\n");
+        System.out.println("    Nome    |   " + nome + "\n");
+        System.out.println("    Classe  |   " + classe + "\n");
+        System.out.println("    Nível   |   " + nivel + "\n");
+        System.out.println("    PV      |   " + pontosDeVida + "\n");
+        System.out.println("    PB      |   " + poderBase + "\n");
+        System.out.println("----------------------------\n\n");
     }
 }
 
